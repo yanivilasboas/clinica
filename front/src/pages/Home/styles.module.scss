@@ -1,0 +1,48 @@
+.wrapper {
+  display: flex;
+
+  main {
+    flex: 1;
+    height: 100vh;
+  }
+}
+
+.homeContainer {
+  padding-top: 10rem;
+  height: 100vh;
+  overflow-y: scroll;
+  text-align: center;
+
+  .titulo {
+    padding-top: 4rem;
+    color: #720e30;
+    font-weight: bold;
+    font-size: 3rem !important;
+    padding-bottom: 1rem;
+  }
+
+  img {
+    width: 8%;
+  }
+  .menu {
+    margin: 0 auto;
+
+    padding: 3rem 22rem;
+
+    .itemMenu {
+      width: 15rem;
+      cursor: pointer;
+
+      div {
+        background-color: #b9114b !important;
+
+        h4,
+        h5 {
+          margin: 0.2rem;
+          text-align: center !important;
+          color: #fff;
+        }
+      }
+    }
+  }
+}

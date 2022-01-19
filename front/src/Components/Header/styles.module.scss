@@ -1,0 +1,50 @@
+.headerContainer {
+  width: 15rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  vertical-align: middle;
+  background-color: #720E30;
+  height: 100vh;
+  color: #fff;
+
+  header{
+    cursor: pointer;
+  }
+
+  img{
+    width: 3rem;
+    padding-top: 5.5rem;
+    
+  }
+
+  h3{
+    color: #fff;
+    padding: 5rem 1rem 0;
+    margin-bottom: 3rem;
+  }
+  .itemMenu {
+    color: #434343;
+    font-weight: bold;
+
+    &:hover {
+      color: #720E30;
+      font-size: 1rem;
+    }
+  }
+
+ 
+  ul{
+    list-style-type: none;
+  }
+  .sair {
+    img {
+      width: 20%;
+      margin-right: 2rem;
+    
+    }
+  }
+  
+}
+

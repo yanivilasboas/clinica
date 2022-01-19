@@ -1,0 +1,36 @@
+.wrapper {
+  display: flex;
+
+  main {
+    flex: 1;
+    height: 100vh;
+  }
+}
+
+.homeContainer {
+  padding-top: 10rem;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  text-align: center;
+  
+
+  .par{
+    color: #fff;
+    
+  }
+
+  .impar{
+    color: #28a745;
+  }
+
+  .logo {
+    width: 30rem;
+    padding: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  section{
+    cursor: pointer;
+  }
+}
